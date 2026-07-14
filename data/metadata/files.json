@@ -1,0 +1,38 @@
+[
+    {
+        "filename": "products.csv",
+        "folder": "raw",
+        "source": "github",
+        "active": "Y"
+    },
+    {
+        "filename": "stores.csv",
+        "folder": "raw",
+        "source": "github",
+        "active": "Y"
+    },
+    {
+        "filename": "suppliers.csv",
+        "folder": "raw",
+        "source": "github",
+        "active": "Y"
+    },
+    {
+        "filename": "inventory.csv",
+        "folder": "raw",
+        "source": "github",
+        "active": "Y"
+    },
+    {
+        "filename": "purchase_orders.csv",
+        "folder": "raw",
+        "source": "github",
+        "active": "Y"
+    },
+    {
+        "filename": "sales_transactions.csv",
+        "folder": "raw",
+        "source": "github",
+        "active": "Y"
+    }
+]
