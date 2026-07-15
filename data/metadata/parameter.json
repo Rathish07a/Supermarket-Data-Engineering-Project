@@ -1,0 +1,26 @@
+[
+  {
+    "folder_name": "Products",
+    "file_name": "products.csv"
+  },
+  {
+    "folder_name": "Stores",
+    "file_name": "stores.csv"
+  },
+  {
+    "folder_name": "Suppliers",
+    "file_name": "suppliers.csv"
+  },
+  {
+    "folder_name": "Inventory",
+    "file_name": "inventory.csv"
+  },
+  {
+    "folder_name": "SalesTransactions",
+    "file_name": "sales_transactions.csv"
+  },
+  {
+    "folder_name": "PurchaseOrders",
+    "file_name": "purchase_orders.csv"
+  }
+]
