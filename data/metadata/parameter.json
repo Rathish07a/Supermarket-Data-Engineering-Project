@@ -1,18 +1,18 @@
 [
   {
-    "folder_name": "Products",
+    "folder_name": "products",
     "file_name": "products.csv"
   },
   {
-    "folder_name": "Stores",
+    "folder_name": "stores",
     "file_name": "stores.csv"
   },
   {
-    "folder_name": "Suppliers",
+    "folder_name": "suppliers",
     "file_name": "suppliers.csv"
   },
   {
-    "folder_name": "Inventory",
+    "folder_name": "inventory",
     "file_name": "inventory.csv"
   },
   {
