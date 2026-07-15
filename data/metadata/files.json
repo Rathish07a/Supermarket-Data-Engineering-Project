@@ -1,36 +1,42 @@
 [
-    {
+     {
         "filename": "products.csv",
+        "folder_name": "products",
         "folder": "raw",
         "source": "github",
         "active": "Y"
     },
     {
         "filename": "stores.csv",
+        "folder_name": "stores",
         "folder": "raw",
         "source": "github",
         "active": "Y"
     },
     {
         "filename": "suppliers.csv",
+        "folder_name": "suppliers",
         "folder": "raw",
         "source": "github",
         "active": "Y"
     },
     {
         "filename": "inventory.csv",
+        "folder_name": "inventory",
         "folder": "raw",
         "source": "github",
         "active": "Y"
     },
     {
         "filename": "purchase_orders.csv",
+        "folder_name": "PurchaseOrders",
         "folder": "raw",
         "source": "github",
         "active": "Y"
     },
     {
         "filename": "sales_transactions.csv",
+        "folder_name": "SalesTransactions",
         "folder": "raw",
         "source": "github",
         "active": "Y"
