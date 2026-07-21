@@ -108,7 +108,7 @@ The project implements the Medallion Architecture to improve data quality, scala
 The following ER diagram illustrates the logical relationships between the core business entities used in this project.
 
 <p align="center">
-    <img src="images/er_diagram.png" alt="ER Diagram" width="900"/>
+    <img src="images/ER_diagram.png" alt="ER Diagram" width="900"/>
 </p>
 
 ### Core Business Entities
