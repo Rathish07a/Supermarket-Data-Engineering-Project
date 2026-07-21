@@ -1,0 +1,61 @@
+product_id,product_name,category,total_quantity_sold,total_revenue,average_unit_price
+1001,Basmati Rice 5kg,Groceries,215,96750.0,450.0
+1001,Basmati Rice 5kg,Groceries,180,81000.0,450.0
+1001,Basmati Rice 5kg,Groceries,148,66600.0,450.0
+1001,Basmati Rice 5kg,Groceries,137,61650.0,450.0
+1001,Basmati Rice 5kg,Groceries,136,61200.0,450.0
+1004,Paneer 250g,Dairy,184,33120.0,180.0
+1004,Paneer 250g,Dairy,169,30420.0,180.0
+1004,Paneer 250g,Dairy,165,29700.0,180.0
+1004,Paneer 250g,Dairy,149,26820.0,180.0
+1006,Mustard Oil 500ml,Cooking Oil,221,26520.0,120.0
+1013,Shampoo 200ml,Personal Care,190,22800.0,120.0
+1013,Shampoo 200ml,Personal Care,188,22560.0,120.0
+1006,Mustard Oil 500ml,Cooking Oil,175,21000.0,120.0
+1004,Paneer 250g,Dairy,113,20340.0,180.0
+1006,Mustard Oil 500ml,Cooking Oil,158,18960.0,120.0
+1006,Mustard Oil 500ml,Cooking Oil,156,18720.0,120.0
+1013,Shampoo 200ml,Personal Care,141,16920.0,120.0
+1013,Shampoo 200ml,Personal Care,135,16200.0,120.0
+1009,Coca Cola 1.5L,Beverages,186,15810.0,85.0
+1008,Chili Powder 100g,Spices,231,15015.0,65.0
+1013,Shampoo 200ml,Personal Care,122,14640.0,120.0
+1008,Chili Powder 100g,Spices,219,14235.0,65.0
+1009,Coca Cola 1.5L,Beverages,164,13940.0,85.0
+1009,Coca Cola 1.5L,Beverages,157,13345.0,85.0
+1009,Coca Cola 1.5L,Beverages,155,13175.0,85.0
+1008,Chili Powder 100g,Spices,193,12545.0,65.0
+1003,Amul Milk 1L,Dairy,216,11880.0,55.0
+1008,Chili Powder 100g,Spices,182,11830.0,65.0
+1006,Mustard Oil 500ml,Cooking Oil,92,11040.0,120.0
+1008,Chili Powder 100g,Spices,160,10400.0,65.0
+1009,Coca Cola 1.5L,Beverages,118,10030.0,85.0
+1003,Amul Milk 1L,Dairy,173,9515.0,55.0
+1003,Amul Milk 1L,Dairy,163,8965.0,55.0
+1003,Amul Milk 1L,Dairy,162,8910.0,55.0
+1002,Wheat Flour 1kg,Groceries,228,7980.0,35.0
+1012,Biscuits Mix 200g,Snacks,190,7600.0,40.0
+1003,Amul Milk 1L,Dairy,123,6765.0,55.0
+1014,Soap 125g,Personal Care,183,6405.0,35.0
+1012,Biscuits Mix 200g,Snacks,160,6400.0,40.0
+1002,Wheat Flour 1kg,Groceries,180,6300.0,35.0
+1014,Soap 125g,Personal Care,177,6195.0,35.0
+1012,Biscuits Mix 200g,Snacks,149,5960.0,40.0
+1002,Wheat Flour 1kg,Groceries,168,5880.0,35.0
+1010,Mineral Water 1L,Beverages,225,5625.0,25.0
+1002,Wheat Flour 1kg,Groceries,158,5530.0,35.0
+1002,Wheat Flour 1kg,Groceries,157,5495.0,35.0
+1012,Biscuits Mix 200g,Snacks,135,5400.0,40.0
+1010,Mineral Water 1L,Beverages,207,5175.0,25.0
+1012,Biscuits Mix 200g,Snacks,126,5040.0,40.0
+1014,Soap 125g,Personal Care,135,4725.0,35.0
+1014,Soap 125g,Personal Care,131,4585.0,35.0
+1011,Lays Chips 40g,Snacks,142,4260.0,30.0
+1014,Soap 125g,Personal Care,121,4235.0,35.0
+1011,Lays Chips 40g,Snacks,138,4140.0,30.0
+1010,Mineral Water 1L,Beverages,163,4075.0,25.0
+1011,Lays Chips 40g,Snacks,130,3900.0,30.0
+1010,Mineral Water 1L,Beverages,147,3675.0,25.0
+1011,Lays Chips 40g,Snacks,114,3420.0,30.0
+1011,Lays Chips 40g,Snacks,108,3240.0,30.0
+1010,Mineral Water 1L,Beverages,127,3175.0,25.0

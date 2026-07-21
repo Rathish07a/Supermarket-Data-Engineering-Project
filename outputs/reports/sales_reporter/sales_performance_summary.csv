@@ -1,0 +1,6 @@
+store_id,store_name,location,manager_name,total_transactions,total_quantity_sold,total_revenue,average_transaction_value,store_rank
+3,Ameerpet Store,Ameerpet,Amit Patel,426,2413,254175.0,596.65,1
+1,HITEC City Store,HITEC City,Rajesh Kumar,396,2252,254085.0,641.63,2
+2,Banjara Hills Store,Banjara Hills,Priya Sharma,420,2359,234160.0,557.52,3
+5,Dilsukhnagar Store,Dilsukhnagar,Venkat Reddy,389,2152,213175.0,548.01,4
+4,Kukatpally Store,Kukatpally,Unknown,373,1966,202595.0,543.15,5

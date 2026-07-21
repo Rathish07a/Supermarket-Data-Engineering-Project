@@ -1,0 +1,18 @@
+{
+    "name": "DS_Metadata_JSON",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "LS_GitHub_HTTP",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "Json",
+        "typeProperties": {
+            "location": {
+                "type": "HttpServerLocation",
+                "relativeUrl": "Rathish07a/Supermarket-Data-Engineering-Project/refs/heads/main/data/metadata/files.json"
+            }
+        },
+        "schema": {}
+    }
+}

@@ -1,0 +1,16 @@
+inventory_id,store_id,product_id,product_name,category,quantity_on_hand,reorder_point,stock_status
+38,3,1010,Mineral Water 1L,Beverages,0,63,Out of Stock
+26,2,1012,Biscuits Mix 200g,Snacks,0,45,Out of Stock
+56,4,1014,Soap 125g,Personal Care,0,55,Out of Stock
+57,5,1001,Basmati Rice 5kg,Groceries,0,45,Out of Stock
+44,4,1002,Wheat Flour 1kg,Groceries,0,48,Out of Stock
+36,3,1008,Chili Powder 100g,Spices,0,70,Out of Stock
+45,4,1003,Amul Milk 1L,Dairy,0,37,Out of Stock
+41,3,1013,Shampoo 200ml,Personal Care,5,57,Low Stock
+20,2,1006,Mustard Oil 500ml,Cooking Oil,12,67,Low Stock
+23,2,1009,Coca Cola 1.5L,Beverages,13,48,Low Stock
+40,3,1012,Biscuits Mix 200g,Snacks,16,48,Low Stock
+48,4,1006,Mustard Oil 500ml,Cooking Oil,20,28,Low Stock
+8,1,1008,Chili Powder 100g,Spices,21,55,Low Stock
+69,5,1013,Shampoo 200ml,Personal Care,22,41,Low Stock
+31,3,1003,Amul Milk 1L,Dairy,29,65,Low Stock

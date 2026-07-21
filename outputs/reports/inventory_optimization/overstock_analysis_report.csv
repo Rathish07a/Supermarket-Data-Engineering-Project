@@ -1,0 +1,24 @@
+inventory_id,store_id,product_id,product_name,category,quantity_on_hand,total_quantity_sold,overstock_candidate
+52,4,1010,Mineral Water 1L,Beverages,311,127,Yes
+30,3,1002,Wheat Flour 1kg,Groceries,457,158,Yes
+11,1,1011,Lays Chips 40g,Snacks,362,142,Yes
+9,1,1009,Coca Cola 1.5L,Beverages,480,118,Yes
+34,3,1006,Mustard Oil 500ml,Cooking Oil,427,175,Yes
+67,5,1011,Lays Chips 40g,Snacks,364,138,Yes
+53,4,1011,Lays Chips 40g,Snacks,390,114,Yes
+70,5,1014,Soap 125g,Personal Care,473,121,Yes
+55,4,1013,Shampoo 200ml,Personal Care,485,122,Yes
+37,3,1009,Coca Cola 1.5L,Beverages,348,164,Yes
+12,1,1012,Biscuits Mix 200g,Snacks,468,190,Yes
+43,4,1001,Basmati Rice 5kg,Groceries,447,137,Yes
+28,2,1014,Soap 125g,Personal Care,429,135,Yes
+25,2,1011,Lays Chips 40g,Snacks,311,130,Yes
+4,1,1004,Paneer 250g,Dairy,390,165,Yes
+3,1,1003,Amul Milk 1L,Dairy,462,162,Yes
+29,3,1001,Basmati Rice 5kg,Groceries,425,180,Yes
+42,3,1014,Soap 125g,Personal Care,352,131,Yes
+13,1,1013,Shampoo 200ml,Personal Care,298,141,Yes
+54,4,1012,Biscuits Mix 200g,Snacks,446,126,Yes
+39,3,1011,Lays Chips 40g,Snacks,430,108,Yes
+66,5,1010,Mineral Water 1L,Beverages,460,163,Yes
+68,5,1012,Biscuits Mix 200g,Snacks,454,135,Yes

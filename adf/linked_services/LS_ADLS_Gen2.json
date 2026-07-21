@@ -1,0 +1,12 @@
+{
+    "name": "LS_ADLS_Gen2",
+    "type": "Microsoft.DataFactory/factories/linkedservices",
+    "properties": {
+        "annotations": [],
+        "type": "AzureBlobFS",
+        "typeProperties": {
+            "url": "https://stsupermarketrath004.dfs.core.windows.net/",
+            "encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDE4MTRGQzc3LTE1OUItNEIyMS1BNjEzLUE3MkIwQzU3MjQ0Rl8zZjg1NDZiMy0wNGUyLTQ5ZGUtOWU3Ny05NWExZjExMGNhMWMiDQp9"
+        }
+    }
+}

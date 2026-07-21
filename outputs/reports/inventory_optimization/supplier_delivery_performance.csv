@@ -1,0 +1,6 @@
+supplier_id,supplier_name,contact_person,total_orders,average_delivery_days,on_time_deliveries,late_deliveries
+2,XYZ Foods Distribution,Meera Nair,61,7.9,21,28
+3,Fresh Produce Co,Suresh Kumar,58,8.2,20,29
+4,Dairy Supplies International,Kavya Sharma,69,8.25,28,33
+1,ABC Wholesale Pvt Ltd,Arjun Singh,58,8.43,27,26
+5,Premium Imports Ltd,Rohit Verma,54,8.88,16,27

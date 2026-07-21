@@ -1,0 +1,11 @@
+store_id,store_name,location,product_id,product_name,category,total_transactions,total_quantity_sold,total_revenue,average_unit_price,transaction_count,quantity_rank,revenue_rank,top_5_best_seller
+1,HITEC City Store,HITEC City,1001,Basmati Rice 5kg,Groceries,32,215,96750.0,450.0,32,7,1,No
+3,Ameerpet Store,Ameerpet,1001,Basmati Rice 5kg,Groceries,31,180,81000.0,450.0,31,16,2,No
+5,Dilsukhnagar Store,Dilsukhnagar,1001,Basmati Rice 5kg,Groceries,31,148,66600.0,450.0,31,32,3,No
+4,Kukatpally Store,Kukatpally,1001,Basmati Rice 5kg,Groceries,27,137,61650.0,450.0,27,37,4,No
+2,Banjara Hills Store,Banjara Hills,1001,Basmati Rice 5kg,Groceries,22,136,61200.0,450.0,22,38,5,No
+4,Kukatpally Store,Kukatpally,1004,Paneer 250g,Dairy,32,184,33120.0,180.0,32,13,6,No
+3,Ameerpet Store,Ameerpet,1004,Paneer 250g,Dairy,28,169,30420.0,180.0,28,20,7,No
+1,HITEC City Store,HITEC City,1004,Paneer 250g,Dairy,27,165,29700.0,180.0,27,22,8,No
+5,Dilsukhnagar Store,Dilsukhnagar,1004,Paneer 250g,Dairy,27,149,26820.0,180.0,27,31,9,No
+2,Banjara Hills Store,Banjara Hills,1006,Mustard Oil 500ml,Cooking Oil,33,221,26520.0,120.0,33,4,10,Yes

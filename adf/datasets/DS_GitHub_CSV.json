@@ -1,0 +1,31 @@
+{
+    "name": "DS_GitHub_CSV",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "LS_GitHub_HTTP",
+            "type": "LinkedServiceReference"
+        },
+        "parameters": {
+            "filename": {
+                "type": "string"
+            }
+        },
+        "annotations": [],
+        "type": "DelimitedText",
+        "typeProperties": {
+            "location": {
+                "type": "HttpServerLocation",
+                "relativeUrl": {
+                    "value": "Rathish07a/Supermarket-Data-Engineering-Project/refs/heads/main/data/raw/@{dataset().filename}",
+                    "type": "Expression"
+                }
+            },
+            "columnDelimiter": ",",
+            "escapeChar": "\\",
+            "firstRowAsHeader": true,
+            "quoteChar": "\""
+        },
+        "schema": []
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,102 @@
+{
+    "name": "Bronze_Ingestion_autoload",
+    "properties": {
+        "activities": [
+            {
+                "name": "Lookup1",
+                "type": "Lookup",
+                "dependsOn": [],
+                "policy": {
+                    "timeout": "0.12:00:00",
+                    "retry": 0,
+                    "retryIntervalInSeconds": 30,
+                    "secureOutput": false,
+                    "secureInput": false
+                },
+                "userProperties": [],
+                "typeProperties": {
+                    "source": {
+                        "type": "JsonSource",
+                        "storeSettings": {
+                            "type": "HttpReadSettings",
+                            "requestMethod": "GET"
+                        },
+                        "formatSettings": {
+                            "type": "JsonReadSettings"
+                        }
+                    },
+                    "dataset": {
+                        "referenceName": "DS_parameter_JSON",
+                        "type": "DatasetReference"
+                    },
+                    "firstRowOnly": false
+                }
+            },
+            {
+                "name": "Fetch_folder_file_names",
+                "type": "ForEach",
+                "dependsOn": [
+                    {
+                        "activity": "Lookup1",
+                        "dependencyConditions": [
+                            "Succeeded"
+                        ]
+                    }
+                ],
+                "userProperties": [],
+                "typeProperties": {
+                    "items": {
+                        "value": "@activity('Lookup1').output.value",
+                        "type": "Expression"
+                    },
+                    "isSequential": true,
+                    "activities": [
+                        {
+                            "name": "Notebook1",
+                            "type": "DatabricksNotebook",
+                            "dependsOn": [],
+                            "policy": {
+                                "timeout": "0.12:00:00",
+                                "retry": 0,
+                                "retryIntervalInSeconds": 120,
+                                "secureOutput": false,
+                                "secureInput": false
+                            },
+                            "userProperties": [],
+                            "typeProperties": {
+                                "notebookPath": "/Users/rathish9843@gmail.com/01_Bronze_Transformation",
+                                "baseParameters": {
+                                    "file_name": {
+                                        "value": "@item().file_name",
+                                        "type": "Expression"
+                                    },
+                                    "folder_name": {
+                                        "value": "@item().folder_name\n",
+                                        "type": "Expression"
+                                    }
+                                }
+                            },
+                            "linkedServiceName": {
+                                "referenceName": "AzureDatabricks1",
+                                "type": "LinkedServiceReference",
+                                "parameters": {
+                                    "file_name": {
+                                        "value": "@item().file_name",
+                                        "type": "Expression"
+                                    },
+                                    "folder_name": {
+                                        "value": "@item().folder_name",
+                                        "type": "Expression"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "annotations": [],
+        "lastPublishTime": "2026-07-15T22:30:43Z"
+    },
+    "type": "Microsoft.DataFactory/factories/pipelines"
+}

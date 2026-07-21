@@ -1,0 +1,6 @@
+supplier_id,supplier_name,contact_person,total_orders,average_delivery_days,on_time_delivery_percentage,supplier_rating,supplier_rank
+2,XYZ Foods Distribution,Meera Nair,61,7.9,34.43,Needs Improvement,1
+3,Fresh Produce Co,Suresh Kumar,58,8.2,34.48,Needs Improvement,2
+4,Dairy Supplies International,Kavya Sharma,69,8.25,40.58,Needs Improvement,3
+1,ABC Wholesale Pvt Ltd,Arjun Singh,58,8.43,46.55,Needs Improvement,4
+5,Premium Imports Ltd,Rohit Verma,54,8.88,29.63,Needs Improvement,5
