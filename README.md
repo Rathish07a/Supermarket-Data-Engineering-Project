@@ -183,6 +183,8 @@ Supermarket-Data-Engineering-Project/
 │   │
 │   └── generate_sample_data.py
 │
+├── LICENSE
+├── requirements.txt
 ├── .gitignore
 └── README.md
 ```
@@ -359,6 +361,7 @@ The project generates business-ready datasets and analytical reports.
 
 Azure Data Engineering Capstone Project
 
+GitHub: https://github.com/Rathish07a
 
 ---
 
@@ -373,3 +376,4 @@ For detailed information about the project, refer to the following documents:
 - [Sales Performance Analysis](documentation/Sales_Performance_Analysis.md)
 - [Inventory Optimization](documentation/Inventory_Optimization.md)
 - [Business Insights](documentation/Business_Insights.md)
+- [Configuration & Setup](documentation/Configuration_and_Setup.md)
