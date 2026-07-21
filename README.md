@@ -78,20 +78,7 @@ The project follows a modern Azure Data Engineering architecture that ingests ra
 5. Gold Layer creates business-ready datasets through aggregations and KPI calculations.
 6. Analytics notebooks generate Sales and Inventory reports as CSV files.## 🏗️ Solution Architecture
 
-The project follows a modern Azure Data Engineering architecture that ingests raw data, processes it through the Medallion Architecture, and generates business-ready analytical reports.
 
-<p align="center">
-    <img src="imamges/architecture_diagram.png" alt="Solution Architecture" width="1000"/>
-</p>
-
-### Workflow
-
-1. Source CSV files are stored in the GitHub repository.
-2. Azure Data Factory performs metadata-driven ingestion into the Landing container.
-3. Azure Databricks reads the raw files and converts them into Delta format (Bronze Layer).
-4. Silver Layer applies data cleansing, validation, and standardization.
-5. Gold Layer creates business-ready datasets through aggregations and KPI calculations.
-6. Analytics notebooks generate Sales and Inventory reports as CSV files.
 
 ## 🥉 Medallion Architecture
 
@@ -338,19 +325,19 @@ The project generates business-ready datasets and analytical reports.
 ### Azure Data Factory
 
 <p align="center">
-  <img src="images/Azure Data Factory/ADF_Home.png" width="900">
+  <img src="images/Azure Data Factory/homepage.png" width="900">
 </p>
 
 ### Azure Databricks
 
 <p align="center">
-  <img src="images/Azure_databricks/Workspace.png" width="900">
+  <img src="images/Azure_databricks/Azure_workspace.png" width="900">
 </p>
 
 ### Azure Resource Group
 
 <p align="center">
-  <img src="images/Azure_resource_groups/Resource_Group.png" width="900">
+  <img src="images/Azure_resource_groups/resource_group.png" width="900">
 </p>
 
 ---
