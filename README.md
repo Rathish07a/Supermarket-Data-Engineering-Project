@@ -359,6 +359,17 @@ The project generates business-ready datasets and analytical reports.
 
 Azure Data Engineering Capstone Project
 
-GitHub: https://github.com/Rathish07a
 
 ---
+
+## 📚 Documentation
+
+For detailed information about the project, refer to the following documents:
+
+- [Project Overview](documentation/Project_Overview.md)
+- [Architecture](documentation/Architecture.md)
+- [Data Model](documentation/Data_Model.md)
+- [Data Cleaning](documentation/Data_Cleaning.md)
+- [Sales Performance Analysis](documentation/Sales_Performance_Analysis.md)
+- [Inventory Optimization](documentation/Inventory_Optimization.md)
+- [Business Insights](documentation/Business_Insights.md)
